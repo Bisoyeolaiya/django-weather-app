@@ -1,0 +1,6 @@
+FROM python:3
+LABEL Bisoye Femi
+ENV LISTEN_PORT=8000
+EXPOSE 8000
+
+COPY /src /src
